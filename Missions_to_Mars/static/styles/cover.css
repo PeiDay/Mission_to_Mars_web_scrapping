@@ -1,0 +1,40 @@
+body {
+
+  background-color:rgb(156, 46, 53);
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+  
+}
+
+
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+}
+
+.cover-container {
+  max-width: 42em;
+}
+
+footer {
+
+background-color: rgb(0, 0, 0);
+border-top-style: solid;
+border-top-width: 5px;
+border-top-color: #858585;
+color: rgb(255, 255, 255);
+min-height: 50px;
+font-family: verdana, tahoma;
+font-size: 10px;
+text-align: center;
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+padding-top: 15px;
+}
+
