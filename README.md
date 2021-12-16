@@ -1,11 +1,11 @@
-### Mission to Mars
-![mission_to_mars]()
+# Mission to Mars
+![mission_to_mars](https://github.com/PeiDay/Web-Scraping-Challenge/blob/main/image/mission_to_mars.png)
 
 ## Background
 In this assignment, we are building a web application that scrapes various websites for data related to the Mission to Mars and displays the information in a single HTML page. The following outlines the steps taken:
 
-# 1. Scraping
-# 2. MongoDB and Flask Application
+### 1. Scraping
+### 2. MongoDB and Flask Application
 
 ## Scraping
 Initial scraping of the following websites was completed using Jupyter Notebook, BeautifulSoup, Pandas, and Requests/Splinter:
@@ -36,11 +36,11 @@ MongoDB with Flask templating was used to create a new HTML page that displays a
 * Home page ('/) 
 Bootstrap CSS(`cover.css`) was used to style an initial landing page with a single button to begin scraping data by calling the **/scrape route**.
 
-![index_cover]()
+![index_cover](https://github.com/PeiDay/Web-Scraping-Challenge/blob/main/image/index_cover.png)
 
 * Results page ('/mission')
 The **/scrape route** redirects to a **/mission route** that renders a second html template, created to display the scraped results using Bootstrap and custom CSS(`style.css`). This page also has a 'New Data' button that calls the **/scrape route** again to refresh the data.
 
-![info_mission_1]()
-![info_mission_2]()
+![info_mission_1](https://github.com/PeiDay/Web-Scraping-Challenge/blob/main/image/info_mission_1.png)
+![info_mission_2](https://github.com/PeiDay/Web-Scraping-Challenge/blob/main/image/info_mission_2.png)
 
