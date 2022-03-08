@@ -2,7 +2,7 @@
 ![mission_to_mars](https://github.com/PeiDay/Web-Scraping-Challenge/blob/main/image/mission_to_mars.png)
 
 ## Background
-In this assignment, we are building a web application that scrapes various websites for data related to the Mission to Mars and displays the information in a single HTML page. The following outlines the steps taken:
+We are building a web application that scrapes various websites for data related to the Mission to Mars and displays the information in a single HTML page. The following outlines the steps taken:
 
 ### 1. Scraping
 ### 2. MongoDB and Flask Application
